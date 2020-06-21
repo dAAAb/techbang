@@ -39,7 +39,7 @@ def show_signal(data, fs, save_name=None):
 
 ''' Demo 1 '''
 
-audio_path = '../audio/hello1.wav'
+audio_path = '../audio/music2.wav'
 fs, data = wavfile.read(audio_path)
 data = data/32768
 

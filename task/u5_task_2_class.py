@@ -19,7 +19,7 @@ def show_spectrogram(data, fs, save_name=None):
     plt.title('Spectrogram')
     plt.colorbar()
     if save_name is not None:
-        plt.savefig(f'spectrogram_{save_name}.jpg', dpi=150)
+        plt.savefig(f'spectrogram_{save_name}.png', dpi=150)
     plt.show()
 
 def show_signal(data, fs, save_name=None):
@@ -32,7 +32,7 @@ def show_signal(data, fs, save_name=None):
     plt.title('Time domain')
     plt.ylim([-1, 1])
     if save_name is not None:
-        plt.savefig(f'time_{save_name}.jpg', dpi=150)
+        plt.savefig(f'time_{save_name}.png', dpi=150)
     plt.show()
 
 

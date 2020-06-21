@@ -1,0 +1,8 @@
+numpy==1.16.4
+scipy==1.2.1
+matplotlib==3.1.0
+pyaudio==0.2.11
+keyboard==0.13.5
+mouse==0.7.1
+datetime
+azure-cognitiveservices-speech==1.12.0
